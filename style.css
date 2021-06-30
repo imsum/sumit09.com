@@ -1,0 +1,138 @@
+
+       
+body {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+
+    /* background: url(https://source.unsplash.com/1600x900/?gym); */
+    background: url(images/pexels-photo-416778.jpeg);
+    height: 4000px;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 10px;
+    top: 3px;
+
+}
+
+.left img {
+    position: fixed;
+    width: 80px;
+    filter: invert(100%);
+    cursor: no-drop;
+
+}
+
+.left div {
+    position: fixed;
+    top: 80px;
+    line-height: 5px;
+    font-size: 15px;
+    text-align: center;
+    cursor: not-allowed;
+}
+
+.mid {
+    
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    /* border: 2px solid blue; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(68, 0, 255);
+    text-decoration: bold;
+}
+
+.btn {
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(61, 28, 28);
+}
+
+.container {
+    color: white;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 32%;
+    border: 2px solid rgb(90, 6, 41);
+
+}
+
+.container form input {
+    font-family: 'Baloo Bhaina 2', cursive;
+
+    display: block;
+    width: 300px;
+    padding: 0px;
+    border: 2px solid rgb(65, 5, 5);
+    margin: 5px auto;
+    
+    font-size: 15px;
+    background-color: rgb(248, 248, 218);
+
+}
+
+.container h1 {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: rgb(248, 248, 248);
+    text-decoration-style: solid;
+    background-color: rgb(65, 5, 5);
+    padding: 2px;
+    width: fit-content;
+    margin-left: 75px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.container button {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: blanchedalmond;
+    background-color: rgb(68, 6, 19);
+    display: block;
+    width: 29%;
+    margin-left: 250px;
+
+}
+
+
